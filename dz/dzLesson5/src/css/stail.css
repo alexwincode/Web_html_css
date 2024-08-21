@@ -1,0 +1,225 @@
+@import url("./reset.css");
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url("./../fonts/Gilroy-Bold.woff2");
+}
+@font-face {
+  font-family: Gilroy-Regular;
+  src: url("./../fonts/Gilroy-Regular.woff2");
+}
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url("./../fonts/Gilroy-Medium.woff2");
+}
+@font-face {
+  font-family: Gilroy-Semibold;
+  src: url("./../fonts/Gilroy-Semibold.woff2");
+}
+
+body{
+  color: #666666;
+  font-family: "Gilroy-Regular",sans-serif;
+  ;
+}
+.container{max-width: 1280px;
+  margin: 0 auto;}
+
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 69px;
+
+}
+
+.navigationLinc{
+  display: flex;
+  width: 560px;
+  justify-content: space-evenly;
+  
+}
+.navigationLinc a , summary{
+color: #000;
+font-family: "Gilroy-Semibold";
+}
+#activ{color:#F25822;
+  }
+
+  summary {
+    list-style: none;
+}
+
+.mainContainer{
+  display: flex;
+
+  gap: 39px;
+}
+.mainContainer img{
+  max-height: 373px;
+}
+.mainContent__leftSide{
+
+  max-width: 590px;
+
+}
+.mainContent__leftSide h1{
+  font-family: "Gilroy-Bold";
+  font-size: 60px;
+  color: #000;
+  line-height: 70.3px;
+  margin-bottom: 17px;
+  font-weight: 800;
+}
+.mainContent__leftSide p{
+  font-family: "Gilroy-Medium";
+  font-size: 20px;
+  line-height: 23.44px;
+  margin-bottom: 37px;
+  max-width: 466px;
+
+}
+
+.mainContent__leftSide-btnList{
+display: flex;
+gap: 72px;
+align-items: baseline;
+}
+.mainContent__leftSide-btnList button{
+  padding:15px 35px;
+  border-radius: 50px;
+  color: #fff;
+  background-color: #F25822;
+  font-family: "Gilroy-Bold";
+  font-size: 17px;
+  line-height: 17.6px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 162px;
+}
+.logos{
+  display: flex;
+  justify-content: space-between;
+  padding: 97px 0;
+}
+
+.solution-container {
+  display: flex;
+  gap: 60px;
+  
+}
+.solutions{
+  padding: 100px 0;
+}
+.solution{
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px 30px 25px 30px;
+
+}
+.solution h2 {
+font-family: "Gilroy-Bold";
+font-weight: 400;
+font-size: 24px;
+color: #000;
+}
+.solution p{
+  font-family: "Gilroy-Regular";
+font-weight: 400;
+font-size: 15px;
+line-height: 150%;
+margin-top: -17px;
+
+}
+
+.solution a{
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 11px;
+line-height: 150%;
+color: #000;
+text-decoration: none;
+}
+
+
+.shadow {
+box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+background: #fff;
+}
+
+
+.offer {
+  padding: 100px 0;
+  background-color: #fafafa;
+}
+.offers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.offer_title {
+  font-family: "Gilroy-Bold";
+  font-weight: 400;
+  font-size: 45px;
+  color: #000;
+}
+.offer_title-p {
+  max-width: 682px;
+  text-align: center;
+  padding: 19px 0 55px ;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+
+
+}
+.offer_cardsList{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+}
+
+.offer_card {
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #fff;
+}
+.offer_card h2{
+  padding: 25px 0 22px;
+  font-family: "Gilroy-Bold";
+font-weight: 400;
+font-size: 24px;
+color: #000;
+
+}
+
+.offer_card p{
+  font-family: "Gilroy-Regular";
+font-weight: 400;
+font-size: 15px;
+line-height: 150%;
+text-align: center;
+color: #aaa;
+margin-bottom:39px ;
+}
+
+.offer_card a {
+display: flex;
+gap: 6px;
+padding:15px 35px;
+border-radius: 50px;
+color: #fff;
+background-color: #F25822;
+font-family: "Gilroy-Bold";
+font-size: 13px;
+line-height: 150%;
+border: none;
+cursor: pointer;
+text-align: center;
+margin-bottom: 50px;
+}
